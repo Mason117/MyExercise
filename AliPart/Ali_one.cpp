@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
 			theMax = max(theMax, max_value[i][k]);
 		}
 		cout << theMax << endl;
-
+		//我的小改变，git测试
 		for (int i = 1; i <= n; i++)
 		{
 			for (int j = 1; j <= k; j++)
