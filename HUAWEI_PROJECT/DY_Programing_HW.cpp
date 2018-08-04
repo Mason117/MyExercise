@@ -53,4 +53,5 @@ int main11() {
 		}
 	}
 	cout << map[number][money / 10] << endl;
+	return 0;
 }
