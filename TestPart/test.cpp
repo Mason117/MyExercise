@@ -1,38 +1,15 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include <string>
 using namespace std;
 
-class A
+int main(int argc, char* argv[])
 {
-	char a[2];
-public:
-    virtual void aa() {};
-};
-
-//class B :public virtual A
-//{
-//	char b[2];
-//	char a[2];
-//public:
-//	virtual void bb() {};
-//	virtual void aa() {};
-//};
-//
-//class C :public virtual B
-//{
-//	char a[2];
-//	char b[2];
-//	char c[2];
-//public:
-//	virtual void cc() {};
-//	virtual void aa() {};
-//	virtual void bb() {};
-//};
-
-int main()
-{
-	cout << sizeof(A) << endl ;
-	
+	string st1 = "123";
+	string st2 = "asd";
+	string out = st1 + st2;
+	cout << out << endl;
+	cout << (st2 < st1) << endl;
 	system("pause");
 }
